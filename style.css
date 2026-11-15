@@ -99,7 +99,16 @@ nav a[aria-current]::after{content:"";position:absolute;left:0;bottom:-9px;width
 .content p+p{margin-top:9px}
 .concept+.concept{margin-top:20px}
 .concept p,.worked p,.task p{overflow-wrap:anywhere}
-.eq{display:block;margin:9px 0;padding:7px 11px;background:var(--lav);border-left:3px solid var(--blue);border-radius:0 8px 8px 0;font-weight:800;overflow-wrap:anywhere}
+.measure{white-space:nowrap;font-variant-numeric:tabular-nums}
+.measure .unit{font-weight:700}
+math{font-family:"Cambria Math","STIX Two Math",math}
+.formula{margin:14px 0 0;min-width:0;padding:14px 16px;background:#f7f6ff;border:1px solid #e3e1fc;border-left:3px solid var(--blue);border-radius:0 13px 13px 0}
+.formula figcaption{font-size:14px;font-weight:800;color:var(--deep)}
+.formula-body{margin:4px 0 8px}
+.math-line{display:block;max-width:100%;overflow-x:auto;padding:5px 2px;scrollbar-width:thin}
+.math-line math{width:max-content;margin-inline:0;font-size:clamp(17px,2vw,22px);line-height:1.5}
+.solution .math-line math,.steps .math-line math{font-size:clamp(16px,1.8vw,20px)}
+.formula p{color:var(--muted);font-size:13px;line-height:1.55}
 .table-wrap{overflow-x:auto;margin-top:24px;border:1px solid var(--line);border-radius:14px}
 table{border-collapse:collapse;width:100%;text-align:left;font-size:14px;line-height:1.45}
 caption{font-weight:800;padding:11px;background:var(--lav);color:var(--deep);text-align:left}
