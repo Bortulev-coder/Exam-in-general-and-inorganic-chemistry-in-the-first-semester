@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Концентрации, активности, коллигативные свойства, буферы, осадки и гидролиз">
+  <meta name="theme-color" content="#ffffff">
+  <title>Растворы и ионные равновесия · Александр Бортулев</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="../app.js" defer></script>
+</head>
+<body id="top" data-lesson="solutions">
+<a class="skip" href="#main">К содержимому</a>
+<header class="header">
+  <div class="wrap bar">
+    <a class="brand" href="../index.html" aria-label="Главная · Александр Бортулев">
+      <span class="mark" aria-hidden="true">аб<i>✳</i></span><span>Александр<br>Бортулев</span>
+    </a>
+    <nav aria-label="Основное меню"><a href="../index.html#programma" aria-current="location">Программа</a><a href="../index.html#bilety">Билеты</a><a href="../index.html#istochniki">Источники</a></nav>
+    <a class="pill" href="https://bortulev-coder.github.io/Portfolio/index.html">Портфолио <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main id="main">
+<div class="chapter"><div class="wrap">
+  <a class="breadcrumb" href="../index.html#programma"><span aria-hidden="true">←</span> Все темы</a>
+  <p class="kicker">Общая химия · Тема 09</p><h1>Растворы и ионные равновесия</h1><p class="lead">Концентрации, активности, коллигативные свойства, буферы, осадки и гидролиз</p>
+</div></div>
+<div class="wrap lesson-grid">
+  <aside class="side">
+    <div class="toc" aria-label="Оглавление урока"><strong>В этой теме</strong>
+      <a href="#theory">Теория</a><a class="subtopic" href="#concept-1">Раствор и состав</a><a class="subtopic" href="#concept-2">Коллигативные эффекты</a><a class="subtopic" href="#concept-3">Кислоты, основания, активности</a><a class="subtopic" href="#concept-4">Вывод формул для слабой кислоты и буфера</a><a class="subtopic" href="#concept-5">ПР, комплексы и гидролиз</a><a class="subtopic" href="#concept-6">★ Кристаллогидрат и фазовый баланс</a><a class="subtopic" href="#concept-7">★ Солевой гидролиз и условные константы</a>
+      <a href="#analogy">Аналогия</a><a href="#example">Разбор</a><a href="#practice">Задачи</a>
+    </div>
+    <button type="button" class="complete" id="complete" aria-pressed="false" hidden>Отметить тему изученной</button>
+  </aside>
+  <div class="content">
+    <section id="theory"><h2>Теория</h2><article class="concept" id="concept-1"><h3>Раствор и состав</h3><p>Истинный раствор однороден на молекулярном масштабе. Коллоиды содержат дисперсные частицы или макромолекулы, суспензии — твёрдые частицы в жидкости, эмульсии — две жидкие фазы, пены — газ в жидкости или твёрдой фазе, аэрозоли — частицы в газе. Гидратация стабилизирует ионы. Растворение определяется ΔG, где ΔH включает разрушение взаимодействий и сольватацию, а ΔS меняется от смешения и перестройки растворителя. Насыщение соответствует равновесию с отдельной фазой, пересыщение — метастабильному состоянию.</p><div class="eq">c = n/Vраствора, w = mвещ/mраствора, b = n/mрастворителя(кг), xᵢ = nᵢ/Σnⱼ</div></article><article class="concept" id="concept-2"><h3>Коллигативные эффекты</h3><p>У идеальной смеси pᵢ = xᵢpᵢ*, для разбавленных растворов ΔTзам ≈ iK_f b, ΔTкип ≈ iK_b b, π ≈ icRT. Множитель i учитывает эффективное число осмотически активных частиц. При бесконечном разбавлении идеального NaCl i→2, в реальности действуют ионные взаимодействия. Для газа при малой концентрации растворимость часто пропорциональна его парциальному давлению (закон Генри).</p></article><article class="concept" id="concept-3"><h3>Кислоты, основания, активности</h3><p>Бренстед описывает перенос протона, Льюис — перенос электронной пары в связь. BF₃ — кислота Льюиса. По Пирсону жёсткие центры чаще предпочитают жёсткие доноры, мягкие — мягкие. aᵢ = γᵢ(cᵢ/c°), pH = −lg a(H₃O⁺), pH+pOH=pK_w. При 25 °C pK_w≈14, нейтральный pH = ½pK_w. Сильный электролит практически полностью диссоциирован в разбавленном растворе, а у слабого есть равновесие между ионами и молекулами.</p></article><article class="concept" id="concept-4"><h3>Вывод формул для слабой кислоты и буфера</h3><p>Для HA ⇌ H⁺+A⁻ при начальной c и степени α образуется cα каждого иона, остаётся c(1−α). При идеальности Kₐ≈cα²/(1−α) в численной записи с c°=1 М. Если α мало и вклад воды мал, [H⁺]≈√(Kₐc). Из определения Kₐ следует pH = pKₐ + lg[a(A⁻)/a(HA)]. При добавлении сильного реагента к буферу сначала учитывают стехиометрию нейтрализации, затем новое равновесие. Для многоосновных кислот ступени учитывают раздельно, если их константы существенно различаются.</p></article><article class="concept" id="concept-5"><h3>ПР, комплексы и гидролиз</h3><p>Для AₘBₙ произведение растворимости равно a(A)ᵐa(B)ⁿ. При Q&gt;Ksp начнётся осаждение, если доступна твёрдая фаза. Общий ион снижает растворимость, протонирование аниона или связывание катиона — повышает. Для A⁻ + H₂O ⇌ HA + OH⁻ получаем K_b=K_w/Kₐ умножением двух равновесий. Многозарядный катион гидролизуется через депротонирование аквалиганда, например [Al(H₂O)₆]³⁺ ⇌ [AlOH(H₂O)₅]²⁺ + H⁺. Кислые соли амфипротны. Ступени гидролиза могут вести к полимеризации или осадку. В жидком аммиаке собственная автопротолизная пара NH₄⁺/NH₂⁻, поэтому кислотность зависит от растворителя.</p></article><article class="concept" id="concept-6"><h3>★ Кристаллогидрат и фазовый баланс</h3><p>Если при охлаждении выделяется CuSO₄·5H₂O, вместе с каждым молем CuSO₄ из раствора уходит пять молей воды. При x молях осадка масса безводной части в маточном растворе равна m₀(CuSO₄)−xM(CuSO₄), а масса воды m₀(H₂O)−5xM(H₂O). Их отношение равно новой растворимости, записанной как граммы соли на грамм воды. Учёт воды в кристаллах предотвращает завышение или занижение расчётного выхода.</p></article><article class="concept" id="concept-7"><h3>★ Солевой гидролиз и условные константы</h3><p>Для амфипротной частицы HA⁻, полученной из H₂A, при достаточной аналитической концентрации и пренебрежении активностями часто pH≈½(pKₐ₁+pKₐ₂). Формула получается, когда [H₂A]≈[A²⁻] из баланса протонов, а произведение двух Kₐ равно [H⁺]²[A²⁻]/[H₂A]. При осаждении в избытке лиганда условное произведение с общей концентрацией металла отличается от Ksp, если свободная доля металла α_M&lt;1. При одинаковой активности аниона осаждение подавляется тем сильнее, чем меньше α_M.</p></article></section>
+    <section id="analogy" class="callout"><h2>Аналогия · Конкуренция за ион</h2><p>Осадок, протон и лиганд могут связывать один и тот же ион. Подставляйте в Ksp свободную концентрацию, как остаток после всех связываний.</p></section>
+    <section id="example" class="worked"><h2>Разбор · Осаждение AgCl после смешивания</h2><p>Смешали 25,0 мл 1,00·10⁻³ М AgNO₃ и 75,0 мл 2,00·10⁻³ М NaCl. Ksp = 1,8·10⁻¹⁰ при 25 °C, γ≈1.</p><ol class="steps"><li>До осаждения [Ag⁺]=2,50·10⁻⁴ М, [Cl⁻]=1,50·10⁻³ М. Q = 3,75·10⁻⁷ &gt; Ksp.</li><li>Cl⁻ в избытке на 1,25·10⁻³ М. После осаждения [Cl⁻]=1,25·10⁻³ + [Ag⁺].</li><li>При малом [Ag⁺] получаем 1,8·10⁻¹⁰/(1,25·10⁻³) ≈ 1,44·10⁻⁷ М. Предположение самосогласовано.</li></ol></section>
+    <section id="practice"><h2>Решите самостоятельно</h2><article class="task" id="task-1"><h3>1. Буфер и добавка</h3>
+  <p>В 0,500 л содержатся 0,0500 моль HA и 0,0250 моль NaA. pKₐ = 4,76, изменением объёма и активностей пренебрегите.</p><ol class="parts"><li class="part">
+  <p><span class="letter">а)</span> Найдите начальный pH.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту а, задание 1</span></summary>
+    <div class="solution"><p>pH = 4,76+lg(0,0250/0,0500) = 4,46.</p></div>
+  </details>
+</li><li class="part">
+  <p><span class="letter">б)</span> Найдите pH после добавления 0,0100 моль NaOH.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту б, задание 1</span></summary>
+    <div class="solution"><p>OH⁻ расходует HA и увеличивает A⁻. Получаем 0,0400 и 0,0350 моль соответственно. pH = 4,76+lg(0,0350/0,0400) ≈ 4,70.</p></div>
+  </details>
+</li></ol>
+</article>
+<article class="task" id="task-2"><h3>2. Соль переменной растворимости</h3>
+  <p>Для CaF₂ при 25 °C пусть Ksp = 4,0·10⁻¹¹. Работайте в идеальном приближении без гидролиза.</p><ol class="parts"><li class="part">
+  <p><span class="letter">а)</span> Найдите растворимость в воде.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту а, задание 2</span></summary>
+    <div class="solution"><p>[Ca²⁺]=s, [F⁻]=2s. 4s³=Ksp, s≈2,15·10⁻⁴ М.</p></div>
+  </details>
+</li><li class="part">
+  <p><span class="letter">б)</span> Найдите приближённую растворимость в 0,010 М NaF.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту б, задание 2</span></summary>
+    <div class="solution"><p>s(0,010+2s)²=Ksp. s≈4,0·10⁻⁷ М, действительно 2s≪0,010.</p></div>
+  </details>
+</li></ol>
+</article></section>
+    <section><p class="lead">По программе курса: с. 7–9.</p></section>
+    <div class="pagination" aria-label="Переход между страницами"><a href="processes.html">← Химические процессы</a><a href="redox.html">Окислительно-восстановительные процессы →</a></div>
+  </div>
+</div>
+</main>
+<footer class="footer"><div class="wrap"><span>Александр Бортулев · Общая и неорганическая химия</span><a href="#top">Наверх ↑</a></div></footer>
+</body>
+</html>

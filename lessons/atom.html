@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Модель Бора, орбитали, квантовые числа, электронные конфигурации и правила Слэтера">
+  <meta name="theme-color" content="#ffffff">
+  <title>Строение атома · Александр Бортулев</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="../app.js" defer></script>
+</head>
+<body id="top" data-lesson="atom">
+<a class="skip" href="#main">К содержимому</a>
+<header class="header">
+  <div class="wrap bar">
+    <a class="brand" href="../index.html" aria-label="Главная · Александр Бортулев">
+      <span class="mark" aria-hidden="true">аб<i>✳</i></span><span>Александр<br>Бортулев</span>
+    </a>
+    <nav aria-label="Основное меню"><a href="../index.html#programma" aria-current="location">Программа</a><a href="../index.html#bilety">Билеты</a><a href="../index.html#istochniki">Источники</a></nav>
+    <a class="pill" href="https://bortulev-coder.github.io/Portfolio/index.html">Портфолио <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main id="main">
+<div class="chapter"><div class="wrap">
+  <a class="breadcrumb" href="../index.html#programma"><span aria-hidden="true">←</span> Все темы</a>
+  <p class="kicker">Общая химия · Тема 03</p><h1>Строение атома</h1><p class="lead">Модель Бора, орбитали, квантовые числа, электронные конфигурации и правила Слэтера</p>
+</div></div>
+<div class="wrap lesson-grid">
+  <aside class="side">
+    <div class="toc" aria-label="Оглавление урока"><strong>В этой теме</strong>
+      <a href="#theory">Теория</a><a class="subtopic" href="#concept-1">Ядро и спектр</a><a class="subtopic" href="#concept-2">Вывод формулы Бора</a><a class="subtopic" href="#concept-3">Волновая функция и плотность</a><a class="subtopic" href="#concept-4">Подуровни и заполнение</a><a class="subtopic" href="#concept-5">★ Экранирование</a><a class="subtopic" href="#concept-6">★ Как выбирать радиальную диаграмму</a>
+      <a href="#analogy">Аналогия</a><a href="#example">Разбор</a><a href="#practice">Задачи</a>
+    </div>
+    <button type="button" class="complete" id="complete" aria-pressed="false" hidden>Отметить тему изученной</button>
+  </aside>
+  <div class="content">
+    <section id="theory"><h2>Теория</h2><article class="concept" id="concept-1"><h3>Ядро и спектр</h3><p>Z — число протонов, A = Z + N — число нуклонов. Изотопы различаются N. Протон и нейтрон — составные частицы, их валентный кварковый состав uud и udd. Энергия связи ядра равна [Zmₚ + Nmₙ − m(ядра)]c². Резерфорд установил наличие компактного ядра, Бор связал дискретный спектр с переходами между стационарными состояниями.</p></article><article class="concept" id="concept-2"><h3>Вывод формулы Бора</h3><p>Для одноэлектронной частицы при круговой орбите кулоновская сила даёт mv² = Ze²/(4πε₀r), а условие Бора mvr = nℏ даёт rₙ ≈ a₀n²/Z. Полная энергия равна половине кулоновской потенциальной, поэтому Eₙ ≈ −13,6Z²/n² эВ без поправки на приведённую массу. При переходе hν = |ΔE|. Для многоэлектронных атомов вводят электронное взаимодействие.</p></article><article class="concept" id="concept-3"><h3>Волновая функция и плотность</h3><p>ψ — амплитуда вероятности, |ψ|² — плотность вероятности. Для нормированной угловой части радиальная вероятность равна r²|Rₙₗ(r)|²dr. У 1s плотность максимальна в ядре, тогда как радиальная вероятность максимальна при r = a₀. 2s имеет один радиальный узел, 3s два, 2p и 3d имеют ноль. p-орбитали имеют один угловой узел, d — два. Δx·Δpₓ ≥ ℏ/2 ограничивает одновременную определённость координаты и импульса.</p><div class="eq">n = 1, 2, …; ℓ = 0…n−1; mₗ = −ℓ…+ℓ; mₛ = ±½</div></article><article class="concept" id="concept-4"><h3>Подуровни и заполнение</h3><p>s, p, d, f соответствуют ℓ = 0, 1, 2, 3. Число орбиталей 2ℓ+1, с учётом принципа Паули емкость 2(2ℓ+1). Сумма от ℓ = 0 до n−1 даёт 2n². По Хунду в вырожденных орбиталях сначала заполняют разные орбитали с параллельными спинами. Правило n+ℓ приближённо. Cr имеет [Ar]3d⁵4s¹, Cu — [Ar]3d¹⁰4s¹. В катионах 4s обычно опустошается раньше 3d. Типичная конфигурация лантаноида [Xe]4fⁿ5d⁰⁻¹6s². У актиноидов заполняются 5f и близкие 6d.</p></article><article class="concept" id="concept-5"><h3>★ Экранирование</h3><p>В модели Слэтера Zэфф = Z − S. Для ns/np другие электроны той же группы дают по 0,35 (в 1s 0,30), электроны слоя n−1 по 0,85, более глубокие по 1. Для nd/nf электроны всех предшествующих групп дают по 1, другие той же группы по 0,35. Правила приближённы и дают орбитально-зависимое экранирование.</p></article><article class="concept" id="concept-6"><h3>★ Как выбирать радиальную диаграмму</h3><p>У водородоподобного атома для 1s R(r) пропорциональна exp(−Zr/a₀), так что P(r) пропорциональна r²exp(−2Zr/a₀). Логарифмическая производная 2/r−2Z/a₀ обращается в ноль при r=a₀/Z. Для 2s у радиального множителя есть нуль r=2a₀/Z, тогда как у 2p в положительной области узлов нет. В 3p один радиальный узел, в 3d ни одного. У реального многоэлектронного атома рисунок отражает тот же счёт узлов для соответствующей центральнополевой модели, а положение экстремумов меняется.</p></article><div class="table-wrap"><table><caption>Узлы водородоподобных орбиталей</caption><thead><tr><th scope="col">АО</th><th scope="col">Радиальные</th><th scope="col">Угловые</th><th scope="col">Форма</th></tr></thead><tbody><tr><th scope="row">1s</th><td>0</td><td>0</td><td>Сфера</td></tr><tr><th scope="row">2s</th><td>1</td><td>0</td><td>Сфера</td></tr><tr><th scope="row">2p</th><td>0</td><td>1</td><td>Две лопасти</td></tr><tr><th scope="row">3s</th><td>2</td><td>0</td><td>Сфера</td></tr><tr><th scope="row">3p</th><td>1</td><td>1</td><td>Две лопасти</td></tr><tr><th scope="row">3d</th><td>0</td><td>2</td><td>Зависит от mₗ</td></tr></tbody></table></div></section>
+    <section id="analogy" class="callout"><h2>Аналогия · Вероятность попадания</h2><p>Вероятность в тонкой сферической оболочке зависит и от плотности, и от площади оболочки. В центре площадь исчезает, даже если локальная плотность высока.</p></section>
+    <section id="example" class="worked"><h2>Разбор · Эффективный заряд для 3p-электрона Cl</h2><p>Z = 17, конфигурация [Ne]3s²3p⁵.</p><ol class="steps"><li>В группе 3s,3p шесть других электронов дают 6·0,35 = 2,10.</li><li>Слой n−1 даёт 8·0,85 = 6,80, слой 1s даёт 2·1,00 = 2,00.</li><li>S = 10,90 и Zэфф = 6,10.</li></ol></section>
+    <section id="practice"><h2>Решите самостоятельно</h2><article class="task" id="task-1"><h3>1. Ион переходного металла</h3>
+  <p>Рассмотрите Fe³⁺, Z(Fe) = 26.</p><ol class="parts"><li class="part">
+  <p><span class="letter">а)</span> Выпишите конфигурации Fe и Fe³⁺.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту а, задание 1</span></summary>
+    <div class="solution"><p>Fe [Ar]3d⁶4s². Сначала уходят два 4s, затем один 3d. Fe³⁺ [Ar]3d⁵.</p></div>
+  </details>
+</li><li class="part">
+  <p><span class="letter">б)</span> Сколько неспаренных электронов у свободного Fe³⁺? Как оценить число радиальных узлов 3d?</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту б, задание 1</span></summary>
+    <div class="solution"><p>По Хунду пять электронов занимают пять d-орбиталей по одному. У водородоподобной 3d число радиальных узлов n−ℓ−1 = 0. Поле лигандов может изменить число неспаренных.</p></div>
+  </details>
+</li></ol>
+</article>
+<article class="task" id="task-2"><h3>2. Спектр водорода</h3>
+  <p>Электрон H переходит с n=3 на n=2. Возьмите hc = 1240 эВ·нм.</p><ol class="parts"><li class="part">
+  <p><span class="letter">а)</span> Найдите энергию излучения.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту а, задание 2</span></summary>
+    <div class="solution"><p>13,6(1/4 − 1/9) = 1,89 эВ.</p></div>
+  </details>
+</li><li class="part">
+  <p><span class="letter">б)</span> Вычислите длину волны и назовите серию.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту б, задание 2</span></summary>
+    <div class="solution"><p>λ ≈ 1240/1,89 = 656 нм. Переходы на n=2 составляют серию Бальмера.</p></div>
+  </details>
+</li></ol>
+</article></section>
+    <section><p class="lead">По программе курса: с. 1–2.</p></section>
+    <div class="pagination" aria-label="Переход между страницами"><a href="stoichiometry.html">← Атомно-молекулярное учение</a><a href="periodicity.html">Периодический закон →</a></div>
+  </div>
+</div>
+</main>
+<footer class="footer"><div class="wrap"><span>Александр Бортулев · Общая и неорганическая химия</span><a href="#top">Наверх ↑</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Полуреакции, Нернст, диаграммы Латимера, элементы и электролиз">
+  <meta name="theme-color" content="#ffffff">
+  <title>Окислительно-восстановительные процессы · Александр Бортулев</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="../app.js" defer></script>
+</head>
+<body id="top" data-lesson="redox">
+<a class="skip" href="#main">К содержимому</a>
+<header class="header">
+  <div class="wrap bar">
+    <a class="brand" href="../index.html" aria-label="Главная · Александр Бортулев">
+      <span class="mark" aria-hidden="true">аб<i>✳</i></span><span>Александр<br>Бортулев</span>
+    </a>
+    <nav aria-label="Основное меню"><a href="../index.html#programma" aria-current="location">Программа</a><a href="../index.html#bilety">Билеты</a><a href="../index.html#istochniki">Источники</a></nav>
+    <a class="pill" href="https://bortulev-coder.github.io/Portfolio/index.html">Портфолио <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main id="main">
+<div class="chapter"><div class="wrap">
+  <a class="breadcrumb" href="../index.html#programma"><span aria-hidden="true">←</span> Все темы</a>
+  <p class="kicker">Общая химия · Тема 10</p><h1>Окислительно-восстановительные процессы</h1><p class="lead">Полуреакции, Нернст, диаграммы Латимера, элементы и электролиз</p>
+</div></div>
+<div class="wrap lesson-grid">
+  <aside class="side">
+    <div class="toc" aria-label="Оглавление урока"><strong>В этой теме</strong>
+      <a href="#theory">Теория</a><a class="subtopic" href="#concept-1">Электронный баланс и среда</a><a class="subtopic" href="#concept-2">Потенциал и доказательство уравнения Нернста</a><a class="subtopic" href="#concept-3">Диаграммы и среда</a><a class="subtopic" href="#concept-4">Ток, коррозия, электролиз</a><a class="subtopic" href="#concept-5">★ Зависимость линии E–pH</a>
+      <a href="#analogy">Аналогия</a><a href="#example">Разбор</a><a href="#practice">Задачи</a>
+    </div>
+    <button type="button" class="complete" id="complete" aria-pressed="false" hidden>Отметить тему изученной</button>
+  </aside>
+  <div class="content">
+    <section id="theory"><h2>Теория</h2><article class="concept" id="concept-1"><h3>Электронный баланс и среда</h3><p>Окислитель принимает электроны, восстановитель отдаёт их. Степень окисления — формальное распределение электронов. Диспропорционирование из одной степени даёт две, компропорционирование сводит две к промежуточной. В полуреакциях балансируют все элементы кроме O и H, затем O посредством H₂O, H посредством H⁺ и заряд посредством e⁻. Для щелочной среды добавляют OH⁻ к обеим сторонам, чтобы перевести H⁺ в воду, затем сокращают.</p></article><article class="concept" id="concept-2"><h3>Потенциал и доказательство уравнения Нернста</h3><p>Электродный потенциал измеряют относительно электрода сравнения. Стандартный водородный электрод определяет нулевую точку. Максимальная электрическая работа связывает ΔᵣG = −nFE. Совместив это с ΔᵣG = ΔᵣG° + RT ln Q, получаем E = E° − (RT/nF)ln Q. При 25 °C множитель при lg Q равен 0,05916/n В. Eяч = Eкат − Eан, оба потенциала берут как потенциалы восстановления.</p></article><article class="concept" id="concept-3"><h3>Диаграммы и среда</h3><p>В диаграмме Латимера значение над стрелкой a→b относится к восстановлению. Если для промежуточной b потенциал справа выше, чем слева, её диспропорционирование термодинамически возможно в указанных условиях. Для суммирования соседних переходов складывают nE°, а не E°. Диаграмма Фроста позволяет сравнивать устойчивость: точка выше хорды соседних степеней склонна к диспропорционированию. pH, связывание и осаждение меняют активности, а значит и потенциалы.</p></article><article class="concept" id="concept-4"><h3>Ток, коррозия, электролиз</h3><p>В гальваническом элементе самопроизвольная ОВР создаёт ток. При электролизе внешний источник поддерживает несамопроизвольный процесс. На аноде всегда окисление, на катоде восстановление. В электролизёре анод положительный, в гальваническом элементе отрицательный. Для электролиза q=It, n(e⁻)=q/F, масса m=ηMIt/(zF). Продукты зависят от состава, материала электрода и перенапряжения. В коррозионной паре менее благородный участок часто становится анодом, протекторный металл окисляется вместо защищаемого.</p></article><article class="concept" id="concept-5"><h3>★ Зависимость линии E–pH</h3><p>Из полуреакции Ox+mH⁺+ne⁻⇌Red при фиксированных активностях Ox и Red следует dE/dpH=−0,05916m/n В при 25 °C. Горизонтальная граница соответствует процессу без протонов, вертикальная — равновесию без электронов. На диаграмме Пурбе границы относятся к равновесию. Защитная плёнка и перенапряжение определяют, насколько быстро оно достигается.</p></article></section>
+    <section id="analogy" class="callout"><h2>Аналогия · Две кассы</h2><p>Электроны, вышедшие из одной полуреакции, должны войти в другую. Перед сложением уравнений уравняйте их число, независимо от коэффициентов остальных частиц.</p></section>
+    <section id="example" class="worked"><h2>Разбор · Реакция перманганата с Fe²⁺</h2><p>Уравняем ОВР в кислой среде.</p><ol class="steps"><li>MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. Проверка заряда: слева +2.</li><li>Fe²⁺ → Fe³⁺ + e⁻. Умножаем на пять.</li><li>MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺. Обе стороны имеют суммарный заряд +17.</li></ol></section>
+    <section id="practice"><h2>Решите самостоятельно</h2><article class="task" id="task-1"><h3>1. Элемент Даниэля</h3>
+  <p>E°(Cu²⁺/Cu)=0,34 В, E°(Zn²⁺/Zn)=−0,76 В, а активности Cu²⁺ и Zn²⁺ равны 0,010 и 1,00 при 25 °C.</p><ol class="parts"><li class="part">
+  <p><span class="letter">а)</span> Укажите анод и запишите суммарную реакцию.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту а, задание 1</span></summary>
+    <div class="solution"><p>Анод Zn: Zn → Zn²⁺+2e⁻. Катод Cu²⁺+2e⁻ → Cu. Сумма Zn+Cu²⁺ → Zn²⁺+Cu.</p></div>
+  </details>
+</li><li class="part">
+  <p><span class="letter">б)</span> Найдите E и знак ΔᵣG.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту б, задание 1</span></summary>
+    <div class="solution"><p>E°=1,10 В, Q=1,00/0,010=100. E=1,10−(0,05916/2)·2≈1,041 В. ΔᵣG=−2FE&lt;0, около −201 кДж/моль.</p></div>
+  </details>
+</li></ol>
+</article>
+<article class="task" id="task-2"><h3>2. Электролитическое осаждение</h3>
+  <p>На катоде идёт Cu²⁺+2e⁻→Cu. Ток равен 2,00 А, время 965 с, выход по току 80,0%. F=96500 Кл/моль, M(Cu)=63,55.</p><ol class="parts"><li class="part">
+  <p><span class="letter">а)</span> Найдите произведение It и количество электронов.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту а, задание 2</span></summary>
+    <div class="solution"><p>q=1930 Кл, n(e⁻)=0,0200 моль.</p></div>
+  </details>
+</li><li class="part">
+  <p><span class="letter">б)</span> Найдите массу Cu с учётом выхода.</p>
+  <details><summary><span class="show-text">Показать решение</span><span class="hide-text">Скрыть решение</span><span class="visually-hidden"> к пункту б, задание 2</span></summary>
+    <div class="solution"><p>0,0200/2·0,800 = 0,00800 моль Cu, m≈0,508 г.</p></div>
+  </details>
+</li></ol>
+</article></section>
+    <section><p class="lead">По программе курса: с. 9–10.</p></section>
+    <div class="pagination" aria-label="Переход между страницами"><a href="solutions.html">← Растворы и ионные равновесия</a><a href="hydrogen.html">Водород и гидриды →</a></div>
+  </div>
+</div>
+</main>
+<footer class="footer"><div class="wrap"><span>Александр Бортулев · Общая и неорганическая химия</span><a href="#top">Наверх ↑</a></div></footer>
+</body>
+</html>
