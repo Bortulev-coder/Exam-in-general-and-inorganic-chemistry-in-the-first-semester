@@ -107,7 +107,12 @@ math{font-family:"Cambria Math","STIX Two Math",math}
 .formula-body{margin:4px 0 8px}
 .math-line{display:block;max-width:100%;overflow-x:auto;padding:5px 2px;scrollbar-width:thin}
 .math-line math{width:max-content;margin-inline:0;font-size:clamp(17px,2vw,22px);line-height:1.5}
-.solution .math-line math,.steps .math-line math{font-size:clamp(16px,1.8vw,20px)}
+.solution .math-line,.steps .math-line{margin-block:9px;padding:8px 11px;background:#eeedff;color:#27237a;border:1px solid #e0defa;border-left:3px solid var(--blue);border-radius:0 8px 8px 0}
+.solution .math-line math,.steps .math-line math,.plain-equation{font-size:clamp(16px,1.8vw,20px)}
+.plain-equation{font-family:"Cambria Math","STIX Two Math",Georgia,serif;line-height:1.65;overflow-wrap:normal;word-break:normal}
+.solution-symbol{color:#302a83;font-weight:650}
+.solution-symbol math{font-size:1.06em}
+.solution .measure,.steps .measure{color:#302a83;font-weight:700}
 .formula p{color:var(--muted);font-size:13px;line-height:1.55}
 .table-wrap{overflow-x:auto;margin-top:24px;border:1px solid var(--line);border-radius:14px}
 table{border-collapse:collapse;width:100%;text-align:left;font-size:14px;line-height:1.45}
@@ -132,7 +137,7 @@ summary:hover{border-color:var(--blue)}
 summary::before{content:"+";font-weight:800;font-size:16px;line-height:1}
 details[open] summary::before{content:"−"}
 details:not([open]) .hide-text,details[open] .show-text{display:none}
-.solution{margin-top:8px;background:var(--lav);border-radius:9px;padding:10px 12px;font-size:14px}
+.solution{margin-top:8px;background:#faf9ff;border:1px solid #eae8f9;border-radius:9px;padding:10px 12px;font-size:15px;overflow-wrap:anywhere}
 .pagination{display:flex;justify-content:space-between;gap:14px;padding-top:17px;border-top:1px solid var(--line);margin-top:31px}
 .pagination a{font-size:13px;font-weight:800}
 @media(max-width:950px){.wrap{width:calc(100% - 55px)}.hero{min-height:475px}.cards,.tickets.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.lesson-grid{grid-template-columns:177px minmax(0,1fr);gap:25px}.bar{min-height:72px}.header .pill{display:none}}
